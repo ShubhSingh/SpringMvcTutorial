@@ -1,1 +1,21 @@
-SpringMvcTemplate/WebContent/WEB-INF/lib/
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Workspace generated files
+*.core.xml
+*.project
+*.classpath
+*.container
+*.component
+*.jsdtscope
