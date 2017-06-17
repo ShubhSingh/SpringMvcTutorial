@@ -28,3 +28,7 @@
 # Maven
 log/
 target/
+
+bin
+target
+WebContent/META-INF
