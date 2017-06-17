@@ -12,10 +12,19 @@
 *.tar.gz
 *.rar
 
-# Workspace generated files
-*.core.xml
-*.project
-*.classpath
-*.container
-*.component
-*.jsdtscope
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
