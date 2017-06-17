@@ -1,0 +1,1 @@
+Contents of WEB-INF are hidden from outside world hence when you run HelloWorld.jsp in tomcat server from WEB-INF it throws 404 Error.
