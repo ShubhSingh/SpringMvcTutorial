@@ -1,0 +1,25 @@
+<web-app id="WebApp_ID" version="3.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  <!-- Configuring Dispatcher Servlet -->
+  <servlet>
+	<servlet-name>SpringSample</servlet-name>
+	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	<!-- Optional -->
+	<init-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/SpringSample-servlet.xml</param-value>
+	</init-param>
+	<load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <!-- Configure URL mapping -->	
+  <servlet-mapping>
+	<servlet-name>SpringSample</servlet-name>
+	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+</web-app>
