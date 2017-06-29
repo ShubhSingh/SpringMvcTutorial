@@ -20,4 +20,4 @@ Be very careful with this in Dispatcher servlet xml:
 Also check Project Facets java version in Properties and also Targeted runtimes.
 
 Following are the jars in WEB-INF/lib directory
-[![lib directory](https://github.com/ShubhSingh/SpringMvcTutorial/edit/master/SpringMvcTemplate/lib.jpg)](#features)
+[![lib directory](https://github.com/ShubhSingh/SpringMvcTutorial/SpringMvcTemplate/lib.JPG)](#features)
