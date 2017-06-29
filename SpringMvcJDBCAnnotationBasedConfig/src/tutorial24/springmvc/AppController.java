@@ -1,15 +1,16 @@
-package tutorial23.springmvc;
+package tutorial24.springmvc;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import tutorial23.springmvc.DAO.AppDAOImpl;
-import tutorial23.springmvc.model.EmployeeAddress;
+import tutorial24.springmvc.DAO.AppDAOImpl;
+import tutorial24.springmvc.annotationconfig.AppConfig;
+import tutorial24.springmvc.model.EmployeeAddress;
 
 @Controller
 public class AppController {
@@ -19,12 +20,12 @@ public class AppController {
 		ModelAndView model = new ModelAndView("index");
 		List<EmployeeAddress> addresses = new ArrayList<>();
 		
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("/tutorial23/springmvc/DAO/Spring-AppDAOConfig.xml");
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		AppDAOImpl DAO = context.getBean("DAOBean", AppDAOImpl.class);
 		
 		addresses = DAO.listAddresses();
-		model.addObject("addresses", addresses);
 		System.out.println(addresses);
+		model.addObject("addresses", addresses);
 		context.close();
 		return model;
 	}
