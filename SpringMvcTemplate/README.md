@@ -6,7 +6,7 @@ Just remember to update Context root after copying by going into
 
 Project Properties --> Web Project Settings --> Context root: (New value to be updated)
 
-![Web Project Settings](web project settings.JPG)
+![Web Project Settings](web_project_settings.JPG)
 
 
 Be very careful with this in Dispatcher servlet xml:
