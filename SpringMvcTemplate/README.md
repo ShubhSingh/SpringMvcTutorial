@@ -8,7 +8,6 @@ Project Properties --> Web Project Settings --> Context root: (New value to be u
 
 ![Web Project Settings](web_project_settings.JPG)
 
-
 Be very careful with this in Dispatcher servlet xml:
 
 <beans xmlns="http://www.springframework.org/schema/beans"
@@ -19,7 +18,13 @@ Be very careful with this in Dispatcher servlet xml:
 	http://www.springframework.org/schema/context 
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	
-Also check Project Facets java version in Properties and also Targeted runtimes.
+Also check Project Facets java version in Properties 
+
+![Project Facets](project_facets.JPG)
+
+And also check Targeted runtimes.
+
+![Targeted runtimes](targeted_runtimes.JPG)
 
 Following are the jars in WEB-INF/lib directory
 
