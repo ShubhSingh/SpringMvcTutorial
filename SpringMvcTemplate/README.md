@@ -1,4 +1,7 @@
+All the Examples are built using jdk1.8.
+
 This is a template for Spring MVC tutorials and can be copied to build different examples.
+
 Just remember to update Context root after copying by going into 
 
 Project Properties --> Web Project Settings --> Context root: (New value to be updated)
