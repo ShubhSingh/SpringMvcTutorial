@@ -1,7 +1,7 @@
 # SpringMvcTutorial
 All the Spring MVC examples are in this repo.
 
-NonSpringWebpage project is just to show whether contents of WEB-INF are available accessible or not.
+NonSpringWebpage project is just to show whether contents of WEB-INF are accessible directly by using the URL to jsp page or not.
 
 Sequence of Projects to start is as follows:
 
