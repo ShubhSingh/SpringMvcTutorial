@@ -36,7 +36,7 @@ public class AppDAOImpl implements AppDAO {
 						rs.getString("state_name"),
 						rs.getString("street_name"),
 						rs.getInt("emp_id"),
-						rs.getInt("pin_code")
+						rs.getString("pin_code")
 						);
 				listAddresses.add(empAdd);
 			}
@@ -56,5 +56,35 @@ public class AppDAOImpl implements AppDAO {
 			}
 		}
 	}
+
+	@Override
+	public void addEmployeeAddress(EmployeeAddress address) {
+		String sql = "insert into TESTSCHEMA.EMPLOYEE_ADDRESS (CITY_NAME,PIN_CODE,STATE_NAME,STREET_NAME) values(?, ?, ?, ?)";
+		Connection conn = null;
+		
+		try {
+			conn = dataSource.getConnection();
+			
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, address.getCityName());
+			ps.setString(2, address.getPinCode());
+			ps.setString(3, address.getStateName());
+			ps.setString(4, address.getStreetName());
+			ps.execute();
+			
+			ps.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			if(conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
 
 }

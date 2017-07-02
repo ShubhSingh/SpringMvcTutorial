@@ -1,10 +1,20 @@
 package tutorial24.springmvc.model;
 
+import org.hibernate.validator.constraints.Length;
+
 public class EmployeeAddress {
-	private String cityName, stateName, streetName;
-	private int empId, pinCode;
+	@Length(min=3,max=30)
+	private String cityName;
+	@Length(min=3,max=30)
+	private String stateName;
+	private String streetName;
+	private int empId;
+	private String pinCode;
 	
-	public EmployeeAddress(String cityName, String stateName, String streetName, int empId, int pinCode) {
+	public EmployeeAddress() {
+	}
+	
+	public EmployeeAddress(String cityName, String stateName, String streetName, int empId, String pinCode) {
 		super();
 		this.cityName = cityName;
 		this.stateName = stateName;
@@ -12,7 +22,7 @@ public class EmployeeAddress {
 		this.empId = empId;
 		this.pinCode = pinCode;
 	}
-	
+
 	public String getCityName() {
 		return cityName;
 	}
@@ -31,17 +41,17 @@ public class EmployeeAddress {
 	public void setStreetName(String streetName) {
 		this.streetName = streetName;
 	}
-	public int getPinCode() {
-		return pinCode;
-	}
-	public void setPinCode(int pinCode) {
-		this.pinCode = pinCode;
-	}
 	public int getEmpId() {
 		return empId;
 	}
 	public void setEmpId(int empId) {
 		this.empId = empId;
+	}
+	public String getPinCode() {
+		return pinCode;
+	}
+	public void setPinCode(String pinCode) {
+		this.pinCode = pinCode;
 	}
 
 	@Override

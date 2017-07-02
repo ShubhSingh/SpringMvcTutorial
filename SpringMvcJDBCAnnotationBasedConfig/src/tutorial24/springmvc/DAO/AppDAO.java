@@ -6,4 +6,5 @@ import tutorial24.springmvc.model.EmployeeAddress;
 
 public interface AppDAO {
 	public List<EmployeeAddress> listAddresses();
+	public void addEmployeeAddress(EmployeeAddress address);
 }

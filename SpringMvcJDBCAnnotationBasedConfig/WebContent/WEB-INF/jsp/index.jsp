@@ -16,7 +16,7 @@
 	<h4>HomePage: List of Employee Addresses in TestSchema
 		Employee_Address table</h4>
 	<hr />
-	<a href="${pageContext.request.contextPath}/addEmployeeAddrress">Add Employee Address</a>
+	<a href="${pageContext.request.contextPath}/addEmployeeAddress">Add Employee Address</a>
 	<p/>
 	<table border="1" align="left">
 		<tr>
