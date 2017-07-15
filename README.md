@@ -25,6 +25,7 @@ Sequence of Projects to start is as follows:
 19. SpringMvcFormValidationHibernateValidatorJSR303
 20. SpringMvcRepopulateFormData
 21. SpringMvcValidationMessageOnView
-23. SpringMvcJDBCXmlBasedConfig
-24. SpringMvcJDBCAnnotationBasedConfig
-
+22. SpringMvcJDBCXmlBasedConfig
+23. SpringMvcJDBCAnnotationBasedConfig
+24. SpringSecurityHelloWorldAnnotationExample
+25. SpringSecurityCustomLoginFormAnnotationExample
