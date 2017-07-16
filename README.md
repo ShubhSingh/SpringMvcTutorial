@@ -29,3 +29,7 @@ Sequence of Projects to start is as follows:
 23. SpringMvcJDBCAnnotationBasedConfig
 24. SpringSecurityHelloWorldAnnotationExample
 25. SpringSecurityCustomLoginFormAnnotationExample
+26. SpringSecurityRoleBasedLoginExample
+27. SpringSecurityHibernateAnnotationExample
+28. SpringHibernateFullAnnotationBased
+29. SpringMVCHibernateWithSpringSecurityExample
