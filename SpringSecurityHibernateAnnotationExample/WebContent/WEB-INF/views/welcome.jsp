@@ -5,7 +5,9 @@
 	<title>Welcome page</title>
 </head>
 <body>
-	Greeting : ${greeting}
-	This is a welcome page.
+	<p>Greeting : ${greeting}
+	This is a welcome page.</p>
+	<br>
+	<a href='/SpringSecurityHibernateAnnotationExample/login'>Login here</a>
 </body>
 </html>
