@@ -34,3 +34,4 @@ Sequence of Projects to start is as follows:
 28. SpringHibernateFullAnnotationBased
 29. SpringMVCHibernateWithSpringSecurityExample
 30. SpringMvcHibernateIntegration
+30. SpringMvcHibernateJNDI
