@@ -36,14 +36,18 @@ Functionality provided in this project are as follows:
 
 That’s it for the basic introduction.
 
-
-For Oracle Db Connection use below connection details:
+This project is created with Apache Derby DB but in case you want to use Oracle DB then the Oracle Db Connection details are as follows:
 
 jdbc.driverClassName = oracle.jdbc.driver.OracleDriver
-jdbc.url = jdbc:oracle:thin:@localhost:1521:xe
-jdbc.username = HR
-jdbc.password = hradmin
-hibernate.dialect = org.hibernate.dialect.OracleDialect
-hibernate.show_sql = true
-hibernate.format_sql = true
 
+jdbc.url = jdbc:oracle:thin:@localhost:1521:xe
+
+jdbc.username = HR
+
+jdbc.password = hradmin
+
+hibernate.dialect = org.hibernate.dialect.OracleDialect
+
+hibernate.show_sql = true
+
+hibernate.format_sql = true
