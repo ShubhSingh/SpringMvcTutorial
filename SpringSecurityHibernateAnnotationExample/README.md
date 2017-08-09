@@ -1,4 +1,4 @@
-##SpringSecurityHelloWorldAnnotationExample
+## SpringSecurityHelloWorldAnnotationExample
 
 This is purely Spring annotation based project hence there's no web.xml and spring-config.xml 
 nor dispatcher-servlet.xml
@@ -22,7 +22,7 @@ Functionality provided in this project are as follows:
 
 2. Now try to access admin page on localhost:8080/SpringSecurityHelloWorldAnnotationExample/admin, you will be prompted for login.
 
-3. Provide credentials of a ‘USER’ role i.e. check in SecurityConfiguration.java for the username and password.
+3. Provide credentials of a â€˜USERâ€™ role i.e. check in SecurityConfiguration.java for the username and password.
 
 4. Submit, you will see AccessDenied Page.
 
@@ -34,7 +34,7 @@ Functionality provided in this project are as follows:
 
 8. Logout, you will be back at home page.
 
-That’s it for the basic introduction.
+Thatâ€™s it for the basic introduction.
 
 
 For Oracle Db Connection use below connection details:
