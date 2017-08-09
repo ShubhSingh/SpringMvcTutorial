@@ -1,4 +1,4 @@
-# SpringMvcHibernateIntegration
+## SpringMvcHibernateIntegration
 
 1. To run this project first of all import this maven project into your eclipse workspace.
 2. Add derbyclient.jar to Java Build Path
