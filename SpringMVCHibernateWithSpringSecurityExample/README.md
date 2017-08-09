@@ -1,4 +1,4 @@
-##SpringMVCHibernateWithSpringSecurityExample
+## SpringMVCHibernateWithSpringSecurityExample
 
 This is purely Spring annotation based project hence there's no web.xml and spring-config.xml 
 nor dispatcher-servlet.xml
@@ -26,11 +26,11 @@ Functionality provided in this project are as follows:
 
 4. Nothing changes for APP_USER table though.
 
-5. Now click on ‘Add new user’ link. Add a user with ‘USER’ role.
+5. Now click on â€˜Add new userâ€™ link. Add a user with â€˜USERâ€™ role.
 
 6. Click on Register, user should be added.
 
-7. Click on ‘Users List’ link. You should see the newly added user.
+7. Click on â€˜Users Listâ€™ link. You should see the newly added user.
 
 8. Add another user with DBA & USER role.
 
@@ -38,10 +38,10 @@ Functionality provided in this project are as follows:
 
 10. Now logout. Check persistent_logins table, entry should be removed.
 
-11. Login with user ‘will’ which has ‘User’ role. No Add/Edit/Delete links are available to this user.
+11. Login with user â€˜willâ€™ which has â€˜Userâ€™ role. No Add/Edit/Delete links are available to this user.
 
-12. Now logout and login with ‘bob’. No Add/Delete links are available to this user.
+12. Now logout and login with â€˜bobâ€™. No Add/Delete links are available to this user.
 
 13. Now try to manually type the delete URL in browser-bar and enter.You should see AccessDenied page.
 
-That’s it.
+Thatâ€™s it.
