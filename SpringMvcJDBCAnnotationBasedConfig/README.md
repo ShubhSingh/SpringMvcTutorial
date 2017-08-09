@@ -1,9 +1,8 @@
-This is tutorial2 for Spring MVC which reads form data.
+## SpringMvcJDBCAnnotationBasedConfig
 
 Just remember to update Context root after copying SpringMvcTemplate by going into 
 
 Project Properties --> Web Project Settings --> Context root: (New value to be updated)
-
 
 Following is the sql scripts to create a table (with auto increment emp_id) and insert 3 records in it:
 
