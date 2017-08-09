@@ -3,7 +3,9 @@ All the Spring MVC examples are in this repo.
 
 NonSpringWebpage project is just to show whether contents of WEB-INF are accessible directly by using the URL to jsp page or not.
 
-Sequence of Projects to start is as follows:
+SpringMvcTemplate project has info regarding setting up these mvc projects. Some later examples are built using maven and has all the dependencies included in pom.xml.
+
+Go through these Projects one by one :
 
 1. SpringMvcTemplate
 2. SpringMvcReadFormData
