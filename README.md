@@ -5,7 +5,7 @@ NonSpringWebpage project is just to show whether contents of WEB-INF are accessi
 
 SpringMvcTemplate project has info regarding setting up these mvc projects. Some later examples are built using maven and has all the dependencies included in pom.xml.
 
-Go through these Projects one by one :
+Go through these SpringMvc Projects sequentially for better understanding :
 
 1. SpringMvcTemplate
 2. SpringMvcReadFormData
