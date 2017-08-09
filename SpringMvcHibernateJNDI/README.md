@@ -1,4 +1,4 @@
-# SpringMvcHibernateJNDI
+## SpringMvcHibernateJNDI
 
 This tutorial is for configuring the JNDI Datasource in Tomcat and then using it in your code.
 
